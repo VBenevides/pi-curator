@@ -1,0 +1,16 @@
+{
+	"name": "pi-curator-plugin",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"description": "Automatic-capture extension that feeds the pi-curator journal",
+	"omp": {
+		"version": "0.1.0",
+		"description": "Automatic-capture extension that feeds the pi-curator journal",
+		"extensions": ["index.ts"]
+	},
+	"scripts": {
+		"typecheck": "tsc --noEmit -p .",
+		"test": "bun test"
+	}
+}
